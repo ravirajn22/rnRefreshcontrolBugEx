@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, FlatList, Button} from 'react-native';
 
-// Refresh indicator not showing when programmatically trigerred and changing the data value to empty
+// Refresh indicator not showing when programmatically triggered and changing the data value to empty
 // In this case, refresh indicator will be shown if we slightly scroll up the Scrollview when refreshing prop is true
 const App = () => {
   let [isRefreshing, setIsRefreshing] = React.useState(false);
